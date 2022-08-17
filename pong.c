@@ -79,11 +79,11 @@ int main() {
         }
         clear();
         display(racket1_x, racket1_y, racket2_x, racket2_y, ball_x, ball_y, screen1, screen2);
-        if (screen1 == 2) {
+        if (screen1 == 10) {
             flag = 1;
             break;
         }
-        if (screen2 == 2) {
+        if (screen2 == 10) {
             flag = 2;
             break;
         }
@@ -174,7 +174,7 @@ void start_screen() {
     printw("|                         a point and a new round begins                       |\n");
     printw("|                                                                              |\n");
     printw("|                      3. the game ends when the score                         |\n");
-    printw("|                         becomes 21 points                                    |\n");
+    printw("|                         becomes 10 points                                    |\n");
     printw("|                                                                              |\n");
     printw("|                                                                              |\n");
     printw("--------------------------------------------------------------------------------\n");
