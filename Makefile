@@ -1,2 +1,2 @@
 all:
-	gcc -lcurses pong.c
+	gcc -lcurses pong.c -o Pong
